@@ -18,6 +18,16 @@ body {
   margin: 0;
   color: #244751;
   background-color: #eee;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+main {
+  position: absolute;
+  width: 450px;
+  height: 100%;
+  left: 25%;
+  top: 80px;
+  background: white;
 }
 
 /*
