@@ -1,0 +1,44 @@
+#tweet-container article{
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+#tweet-container header{
+  background-color: #eee;
+  padding-bottom: 5px;
+  padding-top: 1px;
+  margin-top: -20px;
+}
+
+#tweet-container p{
+  margin-top: 1em;
+  margin-bottom: 3em;
+  margin-left: 1em;
+  margin-right: 2em;
+}
+
+#tweet-container footer{
+  border-top: 1px solid lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-size: smaller;
+}
+
+#tweet-container h2{
+  color: slategray;
+  margin-left: 3em;
+  padding-top: 5px;
+}
+
+#tweet-container:hover article{
+  border: 1px solid black;
+}
+
+#tweet-container:hover  h2{
+  color: black;
+}

@@ -23,6 +23,7 @@
   padding-top: 3%;
   margin-left: 2em;
   margin-right: 2em;
+  
 }
 
 .new-tweet input{
@@ -36,4 +37,8 @@
   display: inline-block;
   float: right;
   margin-right: 2%;
+}
+
+.red {
+  color: red;
 }
