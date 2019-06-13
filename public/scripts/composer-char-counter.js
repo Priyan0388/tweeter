@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $("textarea").keypress(function(){
+      console.log(this)
+    });
 });
-
-console.log("Hello")
