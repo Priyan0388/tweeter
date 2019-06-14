@@ -1,8 +1,8 @@
-#tweet-container img{
+#tweet-container img {
   margin-left: 10px;
   margin-bottom: -30px;
 }
-#tweet-container article{
+#tweet-container article {
   border: 1px solid lightgrey;
   border-radius: 10px;
   margin-left: 2em;
@@ -11,20 +11,20 @@
   overflow: hidden;
 }
 
-#tweet-container header{
+#tweet-container header {
   background-color: #eee;
-  padding-bottom: 5px;
-  padding-top: 1px;
+  padding-bottom: 10px;
   margin-top: -20px;
 }
 
 #tweet-container header > p {
-  margin-right: -45px;
-  padding-left: 80px;
+  padding-top: 1em;
+  display: inline-block;
+  float: right;
   color: dimgrey;
 }
 
-#tweet-container p{
+#tweet-container p {
   display: inline-block;
   margin-top: 1em;
   margin-bottom: 29px;
@@ -32,14 +32,14 @@
   margin-right: 2em;
 }
 
-#tweet-container footer{
+#tweet-container footer {
   border-top: 1px solid lightgrey;
   margin-bottom: -15px;
   padding-left: 0px;
   font-size: smaller;
 }
 
-#tweet-container h2{
+#tweet-container h2 {
   display: inline-block;
   color: slategray;
   margin-left: 10px;
@@ -53,22 +53,22 @@
   margin-top: 17px;
 }
 
-#tweet-container:hover article{
+#tweet-container:hover article {
   border: 1px solid black;
 }
 
-#tweet-container:hover  h2{
+#tweet-container:hover  h2 {
   color: black;
 }
 
-#tweet-container:hover img{
+#tweet-container:hover img {
   border: 1px solid black;
 }
 
-#tweet-container:hover header > p{
+#tweet-container:hover header > p {
   color: black;
 }
 
-#tweet-container:hover footer > span{
+#tweet-container:hover footer > span {
   opacity: 1;
 }

@@ -24,7 +24,8 @@ body {
 main {
   position: absolute;
   width: 450px;
-  height: 100%;
+  height: inherit;
+  padding-bottom: 4em;
   left: 25%;
   top: 80px;
   background: white;
